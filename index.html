@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="container">
+    <div class=" todoSection">
+        <form class="form d-flex mt-5">
+            <div>
+                <input type="text" class="input fw-bold  fs-5 rounded" placeholder="type..." required>
+            </div>
+            <button type="submit" class="btn bg-success formButton">
+                <img src="./img/plus-lg.svg" width="30" height="36">
+            </button>
+        </form>
+
+        <ul class="list"></ul>
+        <div class="todo__button">
+            <button class="all__button btn bg-primary text-light fw-bold ">All <span class="all__result"></span></button>
+        <button class="completed__button btn bg-danger text-light fw-bold">Completed <span class="completed__result"></span></button>
+        <button class="uncompleted__button btn bg-success text-light fw-bold">Uncompleted <span class="uncompleted__result"></span></button>
+        </div>
+    </div>
+
+</div>
+
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

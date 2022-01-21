@@ -1,0 +1,94 @@
+body{
+    background-color: bisque;
+}
+
+.container{
+    padding:0 10px;
+}
+
+.todoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    align-items: center;
+    border: 20px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+}
+
+.input{
+    min-height: 50px;
+    box-shadow: 10px 10px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    min-width: 390px;
+}
+
+.list{
+    list-style: none;
+    padding: 10px 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+.item{
+    min-width: 448px;
+    max-width: 400px;
+    min-height: 55px;
+    max-height: 55px;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 8px;
+    border:2px solid antiquewhite;
+    background-color: rgb(170, 222, 135);
+    box-shadow: inset 1px 1px 2px rgb(24, 243, 42),
+                inset -5px -5px 2px rgb(10, 250, 42);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+}
+
+.item:hover{
+    transform: scale(1.05,1.05);
+    transition: 0.8s;
+}
+
+.all__button{
+    min-width: 105px;
+}
+
+.completed__button{
+    min-width: 165px;
+}
+
+.uncompleted__button{
+    min-width: 165px;
+}
+
+.all__button{
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+}
+
+.all__button:hover {
+    transform: scale(1.07,1.07);
+    transition: 0.5s;
+}
+
+.completed__button{
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+}
+
+.completed__button:hover {
+    transform: scale(1.07,1.07);
+    transition: 0.5s;
+}
+
+.uncompleted__button{
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+}
+
+.uncompleted__button:hover {
+    transform: scale(1.07,1.07);
+    transition: 0.5s;
+}
